@@ -186,7 +186,7 @@ class PunchDetector:
 
         fb: List[str] = []
         if guard_score < 0.5:
-            fb.append("Guard dropped—keep the hands higher.")
+            fb.append("Guard dropped, keep the hands higher.")
         if ext_score < 0.6:
             fb.append("Not fully extending snap out a bit more (don't lock hard).")
         if stab_score < 0.6:
